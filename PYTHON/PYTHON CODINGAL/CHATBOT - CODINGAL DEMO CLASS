@@ -1,0 +1,12 @@
+print("Hello I am Saket, the chatbot")
+name = input("What is your name? ")
+print("Hello, nice to meet you", name)
+feeling = input("\nHow are you feeling today? ")
+if "good" in feeling.lower() or "great" in feeling.lower():
+  print("Thats amazing")
+else:
+  print("Hope you feel better soon")
+hobby = input("\nWhat are your hobbies? ")
+print("Wow thats so cool", hobby)
+sport = input("\nWhat are your favorite sports? ")
+print("Those are so cool", sport)
